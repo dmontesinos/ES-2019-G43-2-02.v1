@@ -1,0 +1,34 @@
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}}{4}% 
+\contentsline {section}{\numberline {2}Diagrama de casos de uso}{5}% 
+\contentsline {section}{\numberline {3}Caso de uso : 0001 - Identificaci\IeC {\'o}n de usuario}{6}% 
+\contentsline {subsection}{\numberline {3.1}Flujo de eventos}{6}% 
+\contentsline {subsubsection}{\numberline {3.1.1}B\IeC {\'a}sico}{6}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Alternativo}{6}% 
+\contentsline {subsection}{\numberline {3.2}Precondiciones}{6}% 
+\contentsline {subsection}{\numberline {3.3}Postcondiciones}{6}% 
+\contentsline {section}{\numberline {4}Caso de uso : 0002 - ADMIN: creaci\IeC {\'o}n y modificaci\IeC {\'o}n de mapas}{6}% 
+\contentsline {subsection}{\numberline {4.1}Flujo de eventos}{6}% 
+\contentsline {subsubsection}{\numberline {4.1.1}B\IeC {\'a}sico}{6}% 
+\contentsline {subsection}{\numberline {4.2}Precondiciones}{6}% 
+\contentsline {subsection}{\numberline {4.3}Postcondiciones}{6}% 
+\contentsline {section}{\numberline {5}Caso de uso : 0003 - ADMIN: Eliminar cuentas}{7}% 
+\contentsline {subsection}{\numberline {5.1}Flujo de eventos}{7}% 
+\contentsline {subsubsection}{\numberline {5.1.1}B\IeC {\'a}sico}{7}% 
+\contentsline {subsection}{\numberline {5.2}Precondiciones}{7}% 
+\contentsline {subsection}{\numberline {5.3}Postcondiciones}{7}% 
+\contentsline {section}{\numberline {6}Caso de uso : 0004 - ADMIN: Crear cuenta}{7}% 
+\contentsline {subsection}{\numberline {6.1}Flujo de eventos}{7}% 
+\contentsline {subsubsection}{\numberline {6.1.1}B\IeC {\'a}sico}{7}% 
+\contentsline {subsubsection}{\numberline {6.1.2}Alternativo}{7}% 
+\contentsline {subsection}{\numberline {6.2}Precondiciones}{7}% 
+\contentsline {subsection}{\numberline {6.3}Postcondiciones}{7}% 
+\contentsline {section}{\numberline {7}Caso de uso : 0005 - USUARIO: Empezar partida}{8}% 
+\contentsline {subsection}{\numberline {7.1}Flujo de eventos}{8}% 
+\contentsline {subsubsection}{\numberline {7.1.1}B\IeC {\'a}sico}{8}% 
+\contentsline {subsection}{\numberline {7.2}Precondiciones}{8}% 
+\contentsline {subsection}{\numberline {7.3}Postcondiciones}{8}% 
+\contentsline {section}{\numberline {8}Caso de uso : 0006 - USUARIO: Borrar su partida}{8}% 
+\contentsline {subsection}{\numberline {8.1}Flujo de eventos}{8}% 
+\contentsline {subsubsection}{\numberline {8.1.1}B\IeC {\'a}sico}{8}% 
+\contentsline {subsection}{\numberline {8.2}Precondiciones}{8}% 
+\contentsline {subsection}{\numberline {8.3}Postcondiciones}{8}% 
