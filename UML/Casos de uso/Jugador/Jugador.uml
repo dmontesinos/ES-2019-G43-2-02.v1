@@ -8,5 +8,8 @@
 :Jugador: --> (Consultar ranking)
 :Jugador: ---> (Guardar partida)
 :Jugador: --> (Salir del juego)
-:Jugador: ---> (Ver menÃº de movimientos)
+:Jugador: ---> (Ver menú de movimientos)
+:Jugador: ---> (Pujar de ranking)
+:Jugador: ---> (Començar la partida de nou)
+:Jugador: ---> (Jugar gratis)
 @enduml
