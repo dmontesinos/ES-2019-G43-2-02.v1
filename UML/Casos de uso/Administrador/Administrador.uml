@@ -6,5 +6,6 @@
 :Administrador: ---> (Modificar cuenta de usuario)
 :Administrador: ---> (Eliminar cuenta de usuario)
 :Administrador: --> (Modificar ranking)
-:Administrador: --> (Ver usuarios en lÃ­nea)
+:Administrador: --> (Ver usuarios en línea)
+:Administrador: --> (Borrar juego) 
 @enduml
