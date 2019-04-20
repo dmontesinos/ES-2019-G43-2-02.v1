@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.25)  20 APR 2019 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.25)  21 APR 2019 01:10
 entering extended mode
 **./ES-2019-G43-2-02-GameDoc.tex
 (ES-2019-G43-2-02-GameDoc.tex
@@ -198,7 +198,7 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks23
 \inpenc@posthook=\toks24
 ) (ES-2019-G43-2-02-GameDoc.aux (introduccio.aux) (descripcio.aux)
-(personatges.aux) (historias.aux))
+(personatges.aux) (histories.aux))
 \openout1 = `ES-2019-G43-2-02-GameDoc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -327,11 +327,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\OT1/cmr/m/n/10 Universitat Au-tonoma de
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-[]|\OT1/cmr/m/n/10 08-Abril-
- []
-
 <./imatges/uab-logo.png, id=1, 351.3125pt x 250.9375pt>
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
@@ -416,24 +411,20 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 142.
 
 AED: lastpage setting LastPage
 (ES-2019-G43-2-02-GameDoc.aux (introduccio.aux) (descripcio.aux)
-(personatges.aux) (histories.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(personatges.aux) (histories.aux)) ) 
 Here is how much of TeX's memory you used:
- 3627 strings out of 492945
- 57250 string characters out of 3126252
+ 3626 strings out of 492945
+ 57564 string characters out of 3126252
  126833 words of memory out of 3000000
  7438 multiletter control sequences out of 15000+200000
  9939 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,65p,492b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/danib/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/danib/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/danib/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ES-2019-G43-2-02-GameDoc.pdf (6 pages, 304825 bytes).
+<C:/Users/danib/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/danib/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/danib/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on ES-2019-G43-2-02-GameDoc.pdf (6 pages, 305105 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
