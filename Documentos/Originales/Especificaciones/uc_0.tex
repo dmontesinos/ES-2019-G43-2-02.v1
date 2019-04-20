@@ -338,3 +338,225 @@ El usuario decide si quiere seguir con la partida, o iniciar una de nueva.
 \end{itemize}
 
 
+
+
+
+\section{Caso de uso : 0014 - USUARIO: Gestión de partidas existentes}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El jugador tendrá en el menú la opción para gestionar sus partidas existentes.
+\item Paso 2
+El sistema mostrará una lista de las partidas existentes.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se le enseña al usuario las partidas existentes. 
+\end{itemize}
+
+
+
+\section{Caso de uso : 0015 - USUARIO: Nueva partida}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario seleccionará la opción de partida nueva. 
+\item Paso 2
+El sistema permitirá al usuario iniciar una nueva partida sin que la anterior se borre (si la anterior se guarda). 
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se inicia una partida nueva y la anterior queda registrada. 
+\end{itemize}
+
+
+
+
+\section{Caso de uso : 0016 - USUARIO: Visualización del ranking}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario seleccinará la opción de ver los ranking. 
+\item Paso 2
+El sistema mostrará todos los rankings del jugador.
+\item Paso 3
+El usuario decide si quiere seguir jugando o salir.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se le muestra al usuario los rankings acumulados. 
+\end{itemize}
+
+
+
+\section{Caso de uso : 0017 - USUARIO: Modificación de los ajustes}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario seleccionará la opción de modificar ajustes. 
+\item Paso 2
+El sistema permitirá al usuario hacer las modificaciones (de ajustes) que él crea convenientes. 
+\item Paso 3
+El usuario podrá hacer las modificaciones necesarias y decidirá si quiere jugar una partida o salir.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item El usuario hace modificaciones de ajustes mediante una opción en el menú.
+\end{itemize}
+
+
+\section{Caso de uso : 0018 - USUARIO: Volver al menú principal}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario seleccionará la opción de menú principal. 
+\item Paso 2
+El sistema redireccionara al usuario al menú principal. 
+\item Paso 3
+El usuario podrá elegir alguna de las opciones existentes de este menú (el principal).
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item El usuario podrá acceder al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0019 - USUARIO: Salir del juego}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario seleccionará la opción de salir del juego. 
+\item Paso 2
+El juego se cerrará.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item El usuario podrá salir del juego cuando quiera. 
+\end{itemize}
+
+
+
+\section{Caso de uso : 0020 - USUARIO: Guardado manual}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario guardará la partida manualmente.  
+\item Paso 2
+El sistema guardará la partida jugada hasta ese momento. 
+\item Paso 3
+El usuario escogerá si salir del juego o continuar jugando. 
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item El usuario podrá guardar la partida manualmente. 
+\end{itemize}
+
+
+
+\section{Caso de uso : 0021 - ADMIN: Borrar juego}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El admin podrá borrar el juego como administrador. 
+\item Paso 2
+El sistema se borrará por completo. 
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item El administrador tendrá la opción de eliminar el juego.
+\end{itemize}
+
+\section{Caso de uso : 0022 - USUARIO: Comenzar partida de nuevo}\label{sec:uc0}
+
+\subsection{Flujo de eventos}
+
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1
+El usuario tendrá opción de empezar la partida de nuevo. 
+\item Paso 2
+El sistema se actualizará con una nueva partida. 
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+\subsection{Postcondiciones}
+\begin{itemize}
+\item El usuario empezará la misma partida de nuevo si desea. 
+\end{itemize}
