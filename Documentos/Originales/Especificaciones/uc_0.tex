@@ -1,71 +1,66 @@
 \section{Caso de uso : 0001 - Identificación de usuario}\label{sec:uc0}
-
-
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
-El usuario ingresa sus datos
-\item Paso 2
-Si el login es correcto, se accede al sistema, sino muestra un error.
+\item Paso 1.
+El usuario ingresa sus datos, (usuario y contraseña).
+\item Paso 2.
+Si el login es correcto, se accede al sistema, si el usuario no existe, o bien, la contraseña es incorrecta se muestra un mensaje de error.
 \end{enumerate}
 
-  \subsubsection{Alternativo}
+\subsubsection{Alternativo}
 En caso de muchos errores se bloqueará la cuenta durante unos minutos.
+
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
 \end{itemize}
+
+
+
 \section{Caso de uso : 0002 - ADMIN: creación y modificación de mapas}\label{sec:uc0}
-
-
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El administrador seleccionará la opción de modificar mapa.
-\item Paso 2
+\item Paso 2.
 El sistema le mostrará los mapas disponibles.
-\item Paso 3
+\item Paso 3.
 El administrador seleccionará el mapa a modificar.
-\item Paso 4
+\item Paso 4.
 El sistema enviará al administrador al editor de mapas.
 \end{enumerate}
 
-
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
 \end{itemize}
 
+
+
 \section{Caso de uso : 0003 - ADMIN: Eliminar cuentas}\label{sec:uc0}
-
-
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El sistema mostrará las cuentas al administrador.
-\item Paso 2
+\item Paso 2.
 El administrador seleccionará la cuenta a eliminar.
-\item Paso 3
+\item Paso 3.
 El sistema borrará la cuenta.
 \end{enumerate}
 
@@ -73,76 +68,79 @@ El sistema borrará la cuenta.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
 \end{itemize}
 
+
+
 \section{Caso de uso : 0004 - ADMIN: Crear cuenta}\label{sec:uc0}
-
-
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
-El sistema pedirá los datos para la nueva cuenta.
-\item Paso 2
+\item Paso 1.
+El sistema pedirá los datos para la nueva cuenta (nombre del usuario, contraseña).
+\item Paso 2.
+El sistema comprobará que el usuario no exista. En el caso que ese nombre de usuario ya esté registrado, se mostrará un mensaje para que se escoja otro nombre no existente. También se comprobará que la contraseña cumpla los requisitos de seguridad, se mostrará un mensaje en caso que no cumpla las condiciones necesarias.
+\item Paso 3.
 El administrador especificará todas las características de la cuenta.
-\item Paso 3
+\item Paso 4.
 El sistema creará la nueva cuenta.
 \end{enumerate}
 
-  \subsubsection{Alternativo}
+\subsubsection{Alternativo}
 En caso de existir la cuenta, el sistema avisará con un error.
+
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
 \end{itemize}
+
+
+
 \section{Caso de uso : 0005 - USUARIO: Empezar partida}\label{sec:uc0}
-
-
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción desde el menú principal.
-\item Paso 2
+\item Paso 2.
 El sistema creará la nueva partida.
 \end{enumerate}
+
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
 \end{itemize}
+
+
+
 \section{Caso de uso : 0006 - USUARIO: Borrar su partida}\label{sec:uc0}
-
-
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará los mapas de ese usuario.
-\item Paso 3
+\item Paso 3.
 El usuario seleccionará un mapa
-\item Paso 4
+\item Paso 4.
 El sistema borrará el mapa.
 \end{enumerate}
 
@@ -150,6 +148,7 @@ El sistema borrará el mapa.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
@@ -158,29 +157,27 @@ El sistema borrará el mapa.
 
 
 \section{Caso de uso : 0007 - ADMIN: Modificar contraseña}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El administrador seleccionará la opción de modificar contraseña.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará todos los usuarios.
-\item Paso 3
+\item Paso 3.
 El administrador seleccionará el usuario del cual quiere modificar la contraseña.
-\item Paso 4
+\item Paso 4.
 El administrador modificará la contraseña del usuario.
-\item Paso 5
+\item Paso 5.
 El sistema modificará la contraseña del usuario.
-
 \end{enumerate}
 
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al administrador al menú principal.
@@ -189,28 +186,25 @@ El sistema modificará la contraseña del usuario.
 
 
 \section{Caso de uso : 0008 - ADMIN: Modificar ranking}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El administrador seleccionará la opción de modificar ranking.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará el ranking.
-\item Paso 3
+\item Paso 3.
 El administrador modificará el ranking.
-\item Paso 4
+\item Paso 4.
 El sistema actualizará el ranking.
-
-
 \end{enumerate}
 
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al administrador al menú principal.
@@ -219,27 +213,25 @@ El sistema actualizará el ranking.
 
 
 \section{Caso de uso : 0009 - USUARIO: Modificar o eliminar datos}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de modificar datos de la cuenta.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará los datos del usuario.
-\item Paso 3
+\item Paso 3.
 El usuario modificará o eliminará aquellos datos que crea necesarios.
-\item Paso 4
+\item Paso 4.
 El sistema actualizará los nuevos datos o eliminará aquellos seleccionados.
 \end{enumerate}
-
 
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario al menú principal.
@@ -248,19 +240,19 @@ El sistema actualizará los nuevos datos o eliminará aquellos seleccionados.
 
 
 \section{Caso de uso : 0010 - SISTEMA: Gestionar juego}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item El sistema se engarará de gestionar todo lo que está relacionado con el juego, tanto el ranking, como las diferentes cuentas de usuarios, etc.
+\item Paso 1.
+El sistema se engarará de gestionar todo lo que está relacionado con el juego, tanto el ranking, como las diferentes cuentas de usuarios, etc.
 \end{enumerate}
 
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item No hay postcondiciones.
@@ -269,19 +261,19 @@ El sistema actualizará los nuevos datos o eliminará aquellos seleccionados.
 
 
 \section{Caso de uso : 0011 - SISTEMA: Gestionar niveles}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item El sistema se engarará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
+\item Paso 1.
+El sistema se engarará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
 \end{enumerate}
 
 \subsection{Precondiciones}
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item No hay postcondiciones.
@@ -290,15 +282,13 @@ El sistema actualizará los nuevos datos o eliminará aquellos seleccionados.
 
 
 \section{Caso de uso : 0012 - ADMIN: Modificar o eliminar datos}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de estados de los usuarios.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará en que estado se encuentra cada usuario (jugando, esperando, etc.).
 \end{enumerate}
 
@@ -306,6 +296,7 @@ El sistema mostrará en que estado se encuentra cada usuario (jugando, esperando
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al administrador al menú principal.
@@ -314,17 +305,15 @@ El sistema mostrará en que estado se encuentra cada usuario (jugando, esperando
 
 
 \section{Caso de uso : 0013 - USUARIO: Continuar partida}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de continuar partida.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará en que nivel se encuentra el usuario y su puntuación.
-\item Paso 3
+\item Paso 3.
 El usuario decide si quiere seguir con la partida, o iniciar una de nueva.
 \end{enumerate}
 
@@ -332,6 +321,7 @@ El usuario decide si quiere seguir con la partida, o iniciar una de nueva.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se redirige al usuario a la partida anterior o a una nueva.
@@ -339,18 +329,14 @@ El usuario decide si quiere seguir con la partida, o iniciar una de nueva.
 
 
 
-
-
 \section{Caso de uso : 0014 - USUARIO: Gestión de partidas existentes}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El jugador tendrá en el menú la opción para gestionar sus partidas existentes.
-\item Paso 2
+\item Paso 2.
 El sistema mostrará una lista de las partidas existentes.
 \end{enumerate}
 
@@ -358,6 +344,7 @@ El sistema mostrará una lista de las partidas existentes.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se le enseña al usuario las partidas existentes. 
@@ -366,15 +353,13 @@ El sistema mostrará una lista de las partidas existentes.
 
 
 \section{Caso de uso : 0015 - USUARIO: Nueva partida}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de partida nueva. 
-\item Paso 2
+\item Paso 2.
 El sistema permitirá al usuario iniciar una nueva partida sin que la anterior se borre (si la anterior se guarda). 
 \end{enumerate}
 
@@ -382,6 +367,7 @@ El sistema permitirá al usuario iniciar una nueva partida sin que la anterior s
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se inicia una partida nueva y la anterior queda registrada. 
@@ -389,19 +375,16 @@ El sistema permitirá al usuario iniciar una nueva partida sin que la anterior s
 
 
 
-
 \section{Caso de uso : 0016 - USUARIO: Visualización del ranking}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
-El usuario seleccinará la opción de ver los ranking. 
-\item Paso 2
+\item Paso 1.
+El usuario seleccionará la opción de ver los ranking. 
+\item Paso 2.
 El sistema mostrará todos los rankings del jugador.
-\item Paso 3
+\item Paso 3.
 El usuario decide si quiere seguir jugando o salir.
 \end{enumerate}
 
@@ -409,6 +392,7 @@ El usuario decide si quiere seguir jugando o salir.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item Se le muestra al usuario los rankings acumulados. 
@@ -417,17 +401,15 @@ El usuario decide si quiere seguir jugando o salir.
 
 
 \section{Caso de uso : 0017 - USUARIO: Modificación de los ajustes}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de modificar ajustes. 
-\item Paso 2
+\item Paso 2.
 El sistema permitirá al usuario hacer las modificaciones (de ajustes) que él crea convenientes. 
-\item Paso 3
+\item Paso 3.
 El usuario podrá hacer las modificaciones necesarias y decidirá si quiere jugar una partida o salir.
 \end{enumerate}
 
@@ -435,24 +417,24 @@ El usuario podrá hacer las modificaciones necesarias y decidirá si quiere juga
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item El usuario hace modificaciones de ajustes mediante una opción en el menú.
 \end{itemize}
 
 
+
 \section{Caso de uso : 0018 - USUARIO: Volver al menú principal}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de menú principal. 
-\item Paso 2
+\item Paso 2.
 El sistema redireccionara al usuario al menú principal. 
-\item Paso 3
+\item Paso 3.
 El usuario podrá elegir alguna de las opciones existentes de este menú (el principal).
 \end{enumerate}
 
@@ -460,6 +442,7 @@ El usuario podrá elegir alguna de las opciones existentes de este menú (el pri
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item El usuario podrá acceder al menú principal.
@@ -468,15 +451,13 @@ El usuario podrá elegir alguna de las opciones existentes de este menú (el pri
 
 
 \section{Caso de uso : 0019 - USUARIO: Salir del juego}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario seleccionará la opción de salir del juego. 
-\item Paso 2
+\item Paso 2.
 El juego se cerrará.
 \end{enumerate}
 
@@ -484,6 +465,7 @@ El juego se cerrará.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item El usuario podrá salir del juego cuando quiera. 
@@ -492,17 +474,15 @@ El juego se cerrará.
 
 
 \section{Caso de uso : 0020 - USUARIO: Guardado manual}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario guardará la partida manualmente.  
-\item Paso 2
+\item Paso 2.
 El sistema guardará la partida jugada hasta ese momento. 
-\item Paso 3
+\item Paso 3.
 El usuario escogerá si salir del juego o continuar jugando. 
 \end{enumerate}
 
@@ -510,6 +490,7 @@ El usuario escogerá si salir del juego o continuar jugando.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item El usuario podrá guardar la partida manualmente. 
@@ -518,15 +499,13 @@ El usuario escogerá si salir del juego o continuar jugando.
 
 
 \section{Caso de uso : 0021 - ADMIN: Borrar juego}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
-El admin podrá borrar el juego como administrador. 
-\item Paso 2
+\item Paso 1.
+El administrador podrá borrar el juego como administrador. 
+\item Paso 2.
 El sistema se borrará por completo. 
 \end{enumerate}
 
@@ -534,21 +513,22 @@ El sistema se borrará por completo.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item El administrador tendrá la opción de eliminar el juego.
 \end{itemize}
 
+
+
 \section{Caso de uso : 0022 - USUARIO: Comenzar partida de nuevo}\label{sec:uc0}
-
 \subsection{Flujo de eventos}
-
 \subsubsection{Básico}
 
 \begin{enumerate}
-\item Paso 1
+\item Paso 1.
 El usuario tendrá opción de empezar la partida de nuevo. 
-\item Paso 2
+\item Paso 2.
 El sistema se actualizará con una nueva partida. 
 \end{enumerate}
 
@@ -556,7 +536,10 @@ El sistema se actualizará con una nueva partida.
 \begin{itemize}
 \item No hay precondiciones.
 \end{itemize}
+
 \subsection{Postcondiciones}
 \begin{itemize}
 \item El usuario empezará la misma partida de nuevo si desea. 
 \end{itemize}
+
+
