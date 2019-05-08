@@ -42,11 +42,14 @@ class Jugador {
     +Password: char
     +Nombre : char
     +Login(ID : char, Password : char) : bool
-    +EditProfile() : void
-    +Continue() : void
+    +CrearCuenta(ID : char, Password : char) : bool
+    +ModificarCuenta() : void
+    +ContinuarPartida() : void
     +CrearPartida() : void
     +GuardarPartida() : void
     +EliminarPartida() : void
+    +MenuMovimientos() : void
+    +SalirJuego(): void
 }
 
 Ranking "1"-->"0..." Partida

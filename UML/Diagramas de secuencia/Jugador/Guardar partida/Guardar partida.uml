@@ -1,0 +1,19 @@
+@startuml
+title Diagrama de secuencia - Guardar partida
+autonumber
+actor Jugador
+boundary InterfMenúUsuario
+control Sistema
+entity BD
+
+Jugador -> InterfMenúUsuario : guardarPartida()
+activate InterfMenúUsuario
+InterfMenúUsuario -> Sistema : guardarPartida()
+activate Sistema
+Sistema -> BD : guardarDatos()
+activate BD
+deactivate BD
+deactivate Sistema
+deactivate InterfMenúUsuario
+
+@enduml

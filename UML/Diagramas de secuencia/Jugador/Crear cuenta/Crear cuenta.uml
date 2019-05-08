@@ -1,0 +1,21 @@
+@startuml
+title Diagrama de secuencia - Crear una cuenta
+autonumber
+actor Jugador
+boundary InterfMenúUsuario
+control Sistema
+entity BD
+
+Jugador -> InterfMenúUsuario : CrearCuenta()
+activate InterfMenúUsuario
+InterfMenúUsuario -> Sistema : comprobarDispo()
+activate Sistema
+Sistema -> BD : realizarConsulta()
+activate BD
+BD -> Sistema : confirmacion()
+Sistema -> BD : realizarRegistro()
+deactivate BD
+deactivate Sistema
+deactivate InterfMenúUsuario
+
+@enduml

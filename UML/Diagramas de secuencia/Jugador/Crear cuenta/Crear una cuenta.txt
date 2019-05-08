@@ -1,0 +1,30 @@
+                        Diagrama de secuencia - Crear una cuenta                    
+                                                                                    
+        ┌─┐                                                                         
+        ║"│                                                                         
+        └┬┘                                                                         
+        ┌┼┐                   |   ,-.                                               
+         │                    +--{   )               ┌───────┐                  ┌──┐
+        ┌┴┐                   |   `-'                │Sistema│                  │BD│
+      Jugador            InterfMenúUsuario           └───────┘                  └──┘
+         │  1 CrearCuenta()     ┌┴┐                      │                       │  
+         │────────────────────> │ │                      │                       │  
+         │                      │ │                      │                       │  
+         │                      │ │ 2 comprobarDispo()  ┌┴┐                      │  
+         │                      │ │ ───────────────────>│ │                      │  
+         │                      │ │                     │ │                      │  
+         │                      │ │                     │ │ 3 realizarConsulta() ┌┴┐
+         │                      │ │                     │ │ ────────────────────>│ │
+         │                      │ │                     │ │                      │ │
+         │                      │ │                     │ │   4 confirmacion()   │ │
+         │                      │ │                     │ │ <────────────────────│ │
+         │                      └┬┘                     └┬┘                      └┬┘
+         │                       │                       │ 5 realizarRegistro()  │  
+         │                       │                       │───────────────────────>  
+      Jugador            InterfMenúUsuario           ┌───────┐                  ┌──┐
+        ┌─┐                   |   ,-.                │Sistema│                  │BD│
+        ║"│                   +--{   )               └───────┘                  └──┘
+        └┬┘                   |   `-'                                               
+        ┌┼┐                                                                         
+         │                                                                          
+        ┌┴┐                                                                         

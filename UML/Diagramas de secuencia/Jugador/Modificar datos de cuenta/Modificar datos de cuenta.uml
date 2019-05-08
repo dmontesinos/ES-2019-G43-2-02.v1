@@ -1,0 +1,19 @@
+@startuml
+title Diagrama de secuencia - Modificar datos de cuenta
+autonumber
+actor Jugador
+boundary InterfMenúUsuario
+control Sistema
+entity BD
+
+Jugador -> InterfMenúUsuario : ModificarCuenta()
+activate InterfMenúUsuario
+InterfMenúUsuario -> Sistema : ModificarCuenta()
+activate Sistema
+Sistema -> BD : realizarModificación()
+activate BD
+deactivate BD
+deactivate Sistema
+deactivate InterfMenúUsuario
+
+@enduml

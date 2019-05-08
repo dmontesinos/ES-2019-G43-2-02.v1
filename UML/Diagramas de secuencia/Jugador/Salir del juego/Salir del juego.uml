@@ -1,0 +1,20 @@
+@startuml
+title Diagrama de secuencia - Salir del juego
+autonumber
+actor Jugador
+boundary InterfMenúUsuario
+control Sistema
+entity BD
+
+Jugador -> InterfMenúUsuario : SalirJuego()
+activate InterfMenúUsuario
+InterfMenúUsuario -> Sistema : SalirJuego()
+activate Sistema
+Sistema -> BD : guardarDatos()
+activate BD
+BD -> Sistema : confirmación()
+deactivate BD
+deactivate Sistema
+deactivate InterfMenúUsuario
+
+@enduml
