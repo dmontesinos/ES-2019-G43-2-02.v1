@@ -12,10 +12,23 @@ InterfMenúUsuario -> Sistema : comprobarDispo()
 activate Sistema
 Sistema -> BD : realizarConsulta()
 activate BD
-BD -> Sistema : confirmacion()
+BD -[#red]> Sistema : confirmacion()
+note right 
+Comprueba que el usuario 
+no existe y devuelve 
+True o False
+end note
+
+Jugador -> InterfMenúUsuario : datosRegistro()
+InterfMenúUsuario -> Sistema : datosRegistro()
 Sistema -> BD : realizarRegistro()
 deactivate BD
 deactivate Sistema
 deactivate InterfMenúUsuario
+alt UsuarioExiste
+BD -[#green]> Sistema : confirmacion()
+Sistema -[#green]> InterfMenúUsuario : error()
+InterfMenúUsuario -[#green]> Jugador : error()
+end
 
 @enduml

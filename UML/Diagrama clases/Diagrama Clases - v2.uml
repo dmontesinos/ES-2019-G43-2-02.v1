@@ -86,7 +86,7 @@ class Sistema <<control>>{
 ' PACKAGE Interfaces
 '------------------------------------------------------------------------
 Package Interfaces {
-MenúUsuario "1"-->"1" Sistema
+MenúUsuario "1"--"1" Sistema
 class MenúUsuario <<boundary>>{
 }
 }
