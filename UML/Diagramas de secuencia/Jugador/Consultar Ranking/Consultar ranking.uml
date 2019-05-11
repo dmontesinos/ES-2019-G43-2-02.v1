@@ -4,16 +4,16 @@ autonumber
 actor Jugador
 boundary InterfMenúUsuario
 control Sistema
-entity BD
+entity Ranking
 
 Jugador -> InterfMenúUsuario : consultarRanking()
 activate InterfMenúUsuario
 InterfMenúUsuario -> Sistema : consultarRanking()
 activate Sistema
-Sistema -> BD : recopilarDatosRanking()
-activate BD
-BD -> Sistema : datosRanking()
-deactivate BD
+Sistema -> Ranking : recopilarDatosRanking()
+activate Ranking
+Ranking -> Sistema : datosRanking()
+deactivate Ranking
 deactivate Sistema
 deactivate InterfMenúUsuario
 

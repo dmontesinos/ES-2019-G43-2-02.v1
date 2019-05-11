@@ -4,16 +4,16 @@ autonumber
 actor Jugador
 boundary InterfMenúUsuario
 control Sistema
-entity BD
+entity Partida
 
 Jugador -> InterfMenúUsuario : continuarPartida()
 activate InterfMenúUsuario
 InterfMenúUsuario -> Sistema : continuarPartida()
 activate Sistema
-Sistema -> BD : comprobarDispo()
-activate BD
-BD -> Sistema : datosPartida()
-deactivate BD
+Sistema -> Partida : comprobarDispo()
+activate Partida
+Partida -> Sistema : datosPartida()
+deactivate Partida
 deactivate Sistema
 deactivate InterfMenúUsuario
 
