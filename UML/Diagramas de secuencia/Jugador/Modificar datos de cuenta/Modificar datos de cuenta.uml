@@ -6,14 +6,36 @@ boundary InterfMenúUsuario
 control Sistema
 entity BD
 
-Jugador -> InterfMenúUsuario : ModificarCuenta()
+Jugador -> InterfMenúUsuario : modificarCuenta()
 activate InterfMenúUsuario
-InterfMenúUsuario -> Sistema : ModificarCuenta()
+InterfMenúUsuario -> Sistema : modificarCuenta()
 activate Sistema
-Sistema -> BD : realizarModificación()
+Sistema -> BD : modificarCuenta()
 activate BD
+BD -[#red]> Sistema : confirmacion()
+note right 
+El sistema recoge 
+los datos recibidos
+y los añade a 
+la BD sustituyendo 
+los anteriores
+end note
+
+
 deactivate BD
 deactivate Sistema
 deactivate InterfMenúUsuario
+alt NoPermitido
+BD -[#green]> Sistema : confirmacion()
+Sistema -[#green]> InterfMenúUsuario : error()
+note right 
+En caso de no
+tener permisos
+para un apartado
+específico,
+devuelve el error
+end note
+InterfMenúUsuario -[#green]> Jugador : error()
+end
 
 @enduml

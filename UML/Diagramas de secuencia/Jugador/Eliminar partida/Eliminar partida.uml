@@ -12,8 +12,21 @@ InterfMenúUsuario -> Sistema : eliminarPartida()
 activate Sistema
 Sistema -> BD : eliminarPartida()
 activate BD
+BD -[#red]> Sistema : confirmacion()
+note right 
+Elimina la partida
+empezada y devuelve
+la confirmación
+end note
+
+
 deactivate BD
 deactivate Sistema
 deactivate InterfMenúUsuario
+alt NoExistePartida
+BD -[#green]> Sistema : confirmacion()
+Sistema -[#green]> InterfMenúUsuario : error()
+InterfMenúUsuario -[#green]> Jugador : error()
+end
 
 @enduml
