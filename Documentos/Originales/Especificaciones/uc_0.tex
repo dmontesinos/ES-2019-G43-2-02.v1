@@ -4,13 +4,13 @@
 
 \begin{enumerate}
 \item Paso 1.
-El usuario ingresa sus datos, (usuario y contraseña).
+El usuario ingresa sus datos (usuario y contraseña).
 \item Paso 2.
 Si el login es correcto, se accede al sistema, si el usuario no existe, o bien, la contraseña es incorrecta se muestra un mensaje de error.
 \end{enumerate}
 
 \subsubsection{Alternativo}
-En caso de muchos errores se bloqueará la cuenta durante unos minutos.
+Si se introduce tres veces seguidas una contraseña incorrecta, se bloqueará la cuenta durante 15 minutos.
 
 \subsection{Precondiciones}
 \begin{itemize}
@@ -24,7 +24,38 @@ En caso de muchos errores se bloqueará la cuenta durante unos minutos.
 
 
 
-\section{Caso de uso : 0002 - ADMIN: creación y modificación de mapas}\label{sec:uc0}
+\section{Caso de uso : 0002 - ADMIN: Creación de mapas}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El administrador seleccionará la opción de crear mapa.
+\item Paso 2.
+El sistema le mostrará los diferentes niveles posibles (fácil, mediano, difícil).
+\item Paso 3.
+El administrador seleccionará la dificultad del mapa que creará.
+\item Paso 4.
+El sistema enviará al administrador al editor de mapas.
+\item Paso 5.
+El administrador creará el mapa des del editor de mapas y lo guardará.
+\item Paso 6.
+El sistema guardará el nuevo mapa.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al usuario al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0003 - ADMIN: Modificación de mapas}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -37,6 +68,36 @@ El sistema le mostrará los mapas disponibles.
 El administrador seleccionará el mapa a modificar.
 \item Paso 4.
 El sistema enviará al administrador al editor de mapas.
+\item Paso 5.
+El administrador modificará el mapa y lo guardará.
+\item Paso 6.
+El sistema guardará el nuevo mapa.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al usuario al menú principal.
+\end{itemize}
+
+
+\section{Caso de uso : 0004 - ADMIN: Eliminación de mapas}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El administrador seleccionará la opción de eliminar mapa.
+\item Paso 2.
+El sistema le mostrará los mapas disponibles.
+\item Paso 3.
+El administrador seleccionará el mapa que desea eliminar.
+\item Paso 4.
+El sistema eliminará mapa.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -51,7 +112,7 @@ El sistema enviará al administrador al editor de mapas.
 
 
 
-\section{Caso de uso : 0003 - ADMIN: Eliminar cuentas}\label{sec:uc0}
+\section{Caso de uso : 0005 - ADMIN: Eliminar cuentas}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -76,7 +137,7 @@ El sistema borrará la cuenta.
 
 
 
-\section{Caso de uso : 0004 - ADMIN: Crear cuenta}\label{sec:uc0}
+\section{Caso de uso : 0006 - ADMIN: Crear cuentas}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -106,7 +167,7 @@ En caso de existir la cuenta, el sistema avisará con un error.
 
 
 
-\section{Caso de uso : 0005 - USUARIO: Empezar partida}\label{sec:uc0}
+\section{Caso de uso : 0007 - USUARIO: Empezar partida}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -129,17 +190,17 @@ El sistema creará la nueva partida.
 
 
 
-\section{Caso de uso : 0006 - USUARIO: Borrar su partida}\label{sec:uc0}
+\section{Caso de uso : 0008 - USUARIO: Borrar su partida}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
 \begin{enumerate}
 \item Paso 1.
-El usuario seleccionará la opción.
+El usuario seleccionará la opción desde el menú principal.
 \item Paso 2.
 El sistema mostrará los mapas de ese usuario.
 \item Paso 3.
-El usuario seleccionará un mapa
+El usuario seleccionará el mapa del cual desea borrar la partida.
 \item Paso 4.
 El sistema borrará el mapa.
 \end{enumerate}
@@ -156,161 +217,13 @@ El sistema borrará el mapa.
 
 
 
-\section{Caso de uso : 0007 - ADMIN: Modificar contraseña}\label{sec:uc0}
+\section{Caso de uso : 0009 - USUARIO: Continuar partida}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
 \begin{enumerate}
 \item Paso 1.
-El administrador seleccionará la opción de modificar contraseña.
-\item Paso 2.
-El sistema mostrará todos los usuarios.
-\item Paso 3.
-El administrador seleccionará el usuario del cual quiere modificar la contraseña.
-\item Paso 4.
-El administrador modificará la contraseña del usuario.
-\item Paso 5.
-El sistema modificará la contraseña del usuario.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item No hay precondiciones.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se redirige al administrador al menú principal.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0008 - ADMIN: Modificar ranking}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El administrador seleccionará la opción de modificar ranking.
-\item Paso 2.
-El sistema mostrará el ranking.
-\item Paso 3.
-El administrador modificará el ranking.
-\item Paso 4.
-El sistema actualizará el ranking.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item No hay precondiciones.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se redirige al administrador al menú principal.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0009 - USUARIO: Modificar o eliminar datos}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El usuario seleccionará la opción de modificar datos de la cuenta.
-\item Paso 2.
-El sistema mostrará los datos del usuario.
-\item Paso 3.
-El usuario modificará o eliminará aquellos datos que crea necesarios.
-\item Paso 4.
-El sistema actualizará los nuevos datos o eliminará aquellos seleccionados.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item No hay precondiciones.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se redirige al usuario al menú principal.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0010 - SISTEMA: Gestionar juego}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El sistema se engarará de gestionar todo lo que está relacionado con el juego, tanto el ranking, como las diferentes cuentas de usuarios, etc.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item No hay precondiciones.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item No hay postcondiciones.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0011 - SISTEMA: Gestionar niveles}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El sistema se engarará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item No hay precondiciones.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item No hay postcondiciones.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0012 - ADMIN: Modificar o eliminar datos}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El usuario seleccionará la opción de estados de los usuarios.
-\item Paso 2.
-El sistema mostrará en que estado se encuentra cada usuario (jugando, esperando, etc.).
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item No hay precondiciones.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se redirige al administrador al menú principal.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0013 - USUARIO: Continuar partida}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El usuario seleccionará la opción de continuar partida.
+El usuario seleccionará la opción de continuar partida desde el menú principal.
 \item Paso 2.
 El sistema mostrará en que nivel se encuentra el usuario y su puntuación.
 \item Paso 3.
@@ -329,7 +242,7 @@ El usuario decide si quiere seguir con la partida, o iniciar una de nueva.
 
 
 
-\section{Caso de uso : 0014 - USUARIO: Gestión de partidas existentes}\label{sec:uc0}
+\section{Caso de uso : 0010 - USUARIO: Gestión de partidas existentes}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -352,15 +265,15 @@ El sistema mostrará una lista de las partidas existentes.
 
 
 
-\section{Caso de uso : 0015 - USUARIO: Nueva partida}\label{sec:uc0}
+\section{Caso de uso : 0011 - USUARIO: Nueva partida}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
 \begin{enumerate}
 \item Paso 1.
-El usuario seleccionará la opción de partida nueva. 
+El usuario seleccionará la opción de partida nueva desde el menú principal. 
 \item Paso 2.
-El sistema permitirá al usuario iniciar una nueva partida sin que la anterior se borre (si la anterior se guarda). 
+El sistema permitirá al usuario iniciar una nueva partida sin que la anterior se borre (en el caso que la partida anterior haya sido guardada). 
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -370,18 +283,235 @@ El sistema permitirá al usuario iniciar una nueva partida sin que la anterior s
 
 \subsection{Postcondiciones}
 \begin{itemize}
-\item Se inicia una partida nueva y la anterior queda registrada. 
+\item Se inicia una partida nueva y la anterior queda registrada si el usuario lo desea. 
 \end{itemize}
 
 
 
-\section{Caso de uso : 0016 - USUARIO: Visualización del ranking}\label{sec:uc0}
+\section{Caso de uso : 0012 - ADMIN: Modificar contraseña}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
 \begin{enumerate}
 \item Paso 1.
-El usuario seleccionará la opción de ver los ranking. 
+El administrador seleccionará la opción de modificar contraseña desde el menú principal.
+\item Paso 2.
+El sistema mostrará todos los usuarios.
+\item Paso 3.
+El administrador seleccionará el usuario del cual quiere modificar la contraseña.
+\item Paso 4.
+El administrador modificará la contraseña del usuario.
+\item Paso 5.
+El sistema modificará la contraseña del usuario.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al administrador al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0013 - ADMIN: Modificar ranking}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El administrador seleccionará la opción de modificar ranking desde el menú principal.
+\item Paso 2.
+El sistema mostrará el ranking.
+\item Paso 3.
+El administrador modificará el ranking.
+\item Paso 4.
+El sistema actualizará el ranking.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al administrador al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0014 - USUARIO: Modificar datos}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El usuario seleccionará la opción de modificar datos de la cuenta desde el menú principal.
+\item Paso 2.
+El sistema mostrará los datos del usuario.
+\item Paso 3.
+El usuario modificará aquellos datos que crea necesarios.
+\item Paso 4.
+El sistema actualizará los nuevos datos.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al usuario al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0015 - USUARIO: Eliminar datos}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El usuario seleccionará la opción de modificar datos de la cuenta.
+\item Paso 2.
+El sistema mostrará los datos del usuario.
+\item Paso 3.
+El usuario eliminará aquellos datos que crea necesarios.
+\item Paso 4.
+El sistema actualizará los datos eliminando aquellos seleccionados.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al usuario al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0016 - SISTEMA: Gestionar niveles}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El sistema se engargará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item No hay postcondiciones.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0017 - SISTEMA: Gestionar ranking}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El sistema se engaragrá de gestionar el ranking que irá de mayor a menor puntuación.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item No hay postcondiciones.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0018 - SISTEMA: Gestionar cuentas}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El sistema se engaragrá de gestionar todas las cuentas de usuario, guardando el nombre de usuario, su contraseña y los datos del usuario.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item No hay postcondiciones.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0019 - SISTEMA: Gestionar mapas}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El sistema se engargará de gestionar todos los mapas del juego según su dificultad.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item No hay postcondiciones.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0020 - ADMIN: Ver estado de los usuarios}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El administrador seleccionará la opción de estados de los usuarios desde el menú principal.
+\item Paso 2.
+El sistema mostrará en que estado se encuentra cada usuario (jugando, esperando o desconectado).
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al administrador al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0021 - USUARIO: Visualización del ranking}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El usuario seleccionará la opción de ver los ranking desde el menú principal. 
 \item Paso 2.
 El sistema mostrará todos los rankings del jugador.
 \item Paso 3.
@@ -400,13 +530,13 @@ El usuario decide si quiere seguir jugando o salir.
 
 
 
-\section{Caso de uso : 0017 - USUARIO: Modificación de los ajustes}\label{sec:uc0}
+\section{Caso de uso : 0022 - USUARIO: Modificación de los ajustes}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
 \begin{enumerate}
 \item Paso 1.
-El usuario seleccionará la opción de modificar ajustes. 
+El usuario seleccionará la opción de modificar ajustes desde el menú principal. 
 \item Paso 2.
 El sistema permitirá al usuario hacer las modificaciones (de ajustes) que él crea convenientes. 
 \item Paso 3.
@@ -425,7 +555,7 @@ El usuario podrá hacer las modificaciones necesarias y decidirá si quiere juga
 
 
 
-\section{Caso de uso : 0018 - USUARIO: Volver al menú principal}\label{sec:uc0}
+\section{Caso de uso : 0023 - USUARIO: Volver al menú principal}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -433,7 +563,7 @@ El usuario podrá hacer las modificaciones necesarias y decidirá si quiere juga
 \item Paso 1.
 El usuario seleccionará la opción de menú principal. 
 \item Paso 2.
-El sistema redireccionara al usuario al menú principal. 
+El sistema redireccionará al usuario al menú principal. 
 \item Paso 3.
 El usuario podrá elegir alguna de las opciones existentes de este menú (el principal).
 \end{enumerate}
@@ -450,7 +580,7 @@ El usuario podrá elegir alguna de las opciones existentes de este menú (el pri
 
 
 
-\section{Caso de uso : 0019 - USUARIO: Salir del juego}\label{sec:uc0}
+\section{Caso de uso : 0024 - USUARIO: Salir del juego}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -473,16 +603,18 @@ El juego se cerrará.
 
 
 
-\section{Caso de uso : 0020 - USUARIO: Guardado manual}\label{sec:uc0}
+\section{Caso de uso : 0025 - USUARIO: Guardado manual}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
 \begin{enumerate}
 \item Paso 1.
-El usuario guardará la partida manualmente.  
+El usuario seleccionará la opción de guardar la partida actual.
 \item Paso 2.
-El sistema guardará la partida jugada hasta ese momento. 
+El usuario guardará la partida manualmente.  
 \item Paso 3.
+El sistema guardará la partida jugada hasta ese momento. 
+\item Paso 4.
 El usuario escogerá si salir del juego o continuar jugando. 
 \end{enumerate}
 
@@ -498,7 +630,7 @@ El usuario escogerá si salir del juego o continuar jugando.
 
 
 
-\section{Caso de uso : 0021 - ADMIN: Borrar juego}\label{sec:uc0}
+\section{Caso de uso : 0026 - ADMIN: Borrar juego}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
@@ -521,7 +653,7 @@ El sistema se borrará por completo.
 
 
 
-\section{Caso de uso : 0022 - USUARIO: Comenzar partida de nuevo}\label{sec:uc0}
+\section{Caso de uso : 0027 - USUARIO: Comenzar partida de nuevo}\label{sec:uc0}
 \subsection{Flujo de eventos}
 \subsubsection{Básico}
 
