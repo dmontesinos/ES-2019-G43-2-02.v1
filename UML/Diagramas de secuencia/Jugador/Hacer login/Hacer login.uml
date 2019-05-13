@@ -4,16 +4,16 @@ autonumber
 actor Jugador
 boundary InterfMenúUsuario
 control Sistema
-entity BD
+entity entity_jugador
 
 Jugador -> InterfMenúUsuario : Login()
 activate InterfMenúUsuario
 InterfMenúUsuario -> Sistema : comprobarDispo()
 activate Sistema
-Sistema -> BD : realizarConsulta()
-activate BD
-BD -> Sistema : confirmación()
-deactivate BD
+Sistema -> entity_jugador : realizarConsulta()
+activate entity_jugador
+entity_jugador -> Sistema : confirmación()
+deactivate entity_jugador
 deactivate Sistema
 deactivate InterfMenúUsuario
 

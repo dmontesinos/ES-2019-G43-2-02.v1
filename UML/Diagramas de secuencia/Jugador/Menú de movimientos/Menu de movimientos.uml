@@ -3,8 +3,7 @@ title Diagrama de secuencia - Ver menú de movimientos
 autonumber
 actor Jugador
 boundary InterfMenúUsuario
-control Sistema
-entity BD
+
 
 Jugador -> InterfMenúUsuario : menuMovimientos()
 activate InterfMenúUsuario

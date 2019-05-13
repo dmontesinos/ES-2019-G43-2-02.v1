@@ -4,29 +4,30 @@ autonumber
 actor Jugador
 boundary InterfMenúUsuario
 control Sistema
-entity BD
+entity entity_Jugador
 
 Jugador -> InterfMenúUsuario : modificarCuenta()
 activate InterfMenúUsuario
 InterfMenúUsuario -> Sistema : modificarCuenta()
 activate Sistema
-Sistema -> BD : modificarCuenta()
-activate BD
-BD -[#red]> Sistema : confirmacion()
+Sistema -> entity_Jugador : modificarCuenta()
+activate entity_Jugador
+entity_Jugador -[#red]> Sistema : confirmacion()
 note right 
 El sistema recoge 
 los datos recibidos
 y los añade a 
-la BD sustituyendo 
-los anteriores
+la entity_Jugador 
+sustituyendo los 
+anteriores
 end note
 
 
-deactivate BD
+deactivate entity_Jugador
 deactivate Sistema
 deactivate InterfMenúUsuario
 alt NoPermitido
-BD -[#green]> Sistema : confirmacion()
+entity_Jugador -[#green]> Sistema : confirmacion()
 Sistema -[#green]> InterfMenúUsuario : error()
 note right 
 En caso de no

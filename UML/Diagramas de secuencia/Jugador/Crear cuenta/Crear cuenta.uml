@@ -4,15 +4,15 @@ autonumber
 actor Jugador
 boundary InterfMenúUsuario
 control Sistema
-entity BD
+entity entity_Jugador
 
 Jugador -> InterfMenúUsuario : CrearCuenta()
 activate InterfMenúUsuario
 InterfMenúUsuario -> Sistema : comprobarDispo()
 activate Sistema
-Sistema -> BD : realizarConsulta()
-activate BD
-BD -[#red]> Sistema : confirmacion()
+Sistema -> entity_Jugador : realizarConsulta()
+activate entity_Jugador
+entity_Jugador -[#red]> Sistema : confirmacion()
 note right 
 Comprueba que el usuario 
 no existe y devuelve 
@@ -21,12 +21,12 @@ end note
 
 Jugador -> InterfMenúUsuario : datosRegistro()
 InterfMenúUsuario -> Sistema : datosRegistro()
-Sistema -> BD : realizarRegistro()
-deactivate BD
+Sistema -> entity_Jugador : realizarRegistro()
+deactivate entity_Jugador
 deactivate Sistema
 deactivate InterfMenúUsuario
 alt UsuarioExiste
-BD -[#green]> Sistema : confirmacion()
+entity_Jugador -[#green]> Sistema : confirmacion()
 Sistema -[#green]> InterfMenúUsuario : error()
 InterfMenúUsuario -[#green]> Jugador : error()
 end
