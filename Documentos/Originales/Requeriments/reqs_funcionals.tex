@@ -4,7 +4,7 @@
 \requeriment{REQ-F-1-01}{USUARIO: Identificación de usuarios}{El usuario se conectará al sistema mediante un usuario y una contraseña.}{A}{R}{}
 
 \requeriment{REQ-F-1-02}{ADMIN: Gestión de mapas}{
-El administrador podrá gestionar todos los mapas del juego.}{A}{R}
+A parte de crear, el administrador podrá gestionar todos los mapas del juego.}{A}{R}
 
 \requeriment{REQ-F-1-03}{ADMIN: Creación de mapas}{
 El administrador podrá crear nuevos mapas.}{A}{R}{REQ-F-1-02}
@@ -19,28 +19,32 @@ El administrador podrá eliminar mapas.}{A}{R}{REQ-F-1-02}
 El administrador podrá gestionar las cuentas de los usuarios.}{A}{R}
 
 \requeriment{REQ-F-1-07}{ADMIN: Eliminar cuentas}{
-El administrador podrá eliminar las cuentas de cualquier usuario.}{A}{R}{REQ-F-1-06}
+El administrador podrá suspender cualquier cuenta de cualquier usuario.}{A}{R}{REQ-F-1-06}
 
 \requeriment{REQ-F-1-08}{ADMIN: Crear cuentas}{
 El administrador podrá crear nuevas cuentas para usuarios.}{A}{R}{REQ-F-1-06}
 
 \requeriment{REQ-F-1-09}{USUARIO: Gestionar partidas}{
-El jugador podrá gestionar sus propias partidas.}{A}{R}
+El jugador tendrá control y gestión sobre sus propias partidas, es una opción que se le mostrará en el propio Menú. }{A}{R}
 
 \requeriment{REQ-F-1-10}{USUARIO: Empezar partida}{
-El jugador podrá iniciar partidas cuando lo desee.}{A}{R}{REQ-F-1-09}
+El jugador podrá elegir la opción de empezar partida cuando lo desee.}{A}{R}{REQ-F-1-09}
 
 \requeriment{REQ-F-1-11}{USUARIO: Borrar partida}{
 El jugador podrá borrar sus partidas cuando lo desee.}{A}{R}{REQ-F-1-09}
 
 \requeriment{REQ-F-1-12}{USUARIO: Continuar partida}{
-El usuario puede continuar la partida por donde la dejó.}{A}{R}{REQ-F-1-09}
+El usuario puede continuar la partida por donde la dejó (modo PAUSE).}{A}{R}{REQ-F-1-09}
 
-\requeriment{REQ-F-1-13}{USUARIO: Gestión de partidas existentes}{
-El jugador tendrá en el menú la opción para gestionar sus partidas existentes.}{A}{R}{REQ-F-1-09}
+\requeriment{REQ-F-1-13}{USUARIO: Guardar partida}{
+El jugador puede guardar la partida manualmente.}{A}{R}{REQ-F-1-09}
 
-\requeriment{REQ-F-1-14}{USUARIO: Nueva partida}{
-El jugador tendrá en el menú la opción para empezar una partida nueva.}{A}{R}{REQ-F-1-09}
+\requeriment{REQ-F-1-14}{USUARIO: Gestión de partidas existentes}{
+El jugador tendrá en el menú la opción para gestionar sus partidas existentes, es decir, de las que ha 
+guardado.}{A}{R}{REQ-F-1-09}
+
+esto fuera -----> (((((\requeriment{REQ-F-1-15}{USUARIO: Nueva partida}{
+El jugador tendrá en el menú la opción para empezar una partida nueva.}{A}{R}{REQ-F-1-09}))))
 
 \requeriment{REQ-F-1-15}{ADMIN: Modificar contraseña}{
 El administrador podrá modificar la contraseña del usuario.}{A}{R}
@@ -48,50 +52,45 @@ El administrador podrá modificar la contraseña del usuario.}{A}{R}
 \requeriment{REQ-F-1-16}{ADMIN: Modificar ranking}{
 El administrador podrá modificar el ranking de los usuarios.}{A}{R}
 
-\requeriment{REQ-F-1-17}{USUARIO: Gestionar los datos de la cuenta}{
-El jugador puede gestionar los datos de su propia cuenta.}{A}{R}
+\requeriment{REQ-F-1-17}{USUARIO: Gestionar (modificar) los datos de la cuenta}{
+El usuario/jugador podrá configurar los datos de su perfil y hacer los 
+cambios que considere, tales como cambiar el nombre de usuario, o restablecer la contraseña, etc.}{A}{R}
 
-\requeriment{REQ-F-1-18}{USUARIO: Modificar datos de la cuenta}{
-El usuario puede modificar sus datos de la cuenta.}{A}{R}{REQ-F-1-17}
-
-\requeriment{REQ-F-1-19}{USUARIO: Eliminar datos de la cuenta}{
+\requeriment{REQ-F-1-18}{USUARIO: Gestionar (eliminar) datos de la cuenta}{
 El usuario puede eliminar sus datos de la cuenta.}{A}{R}{REQ-F-1-17}
 
-\requeriment{REQ-F-1-20}{SISTEMA: Gestionar juego}{
+\requeriment{REQ-F-1-19}{SISTEMA: Gestionar juego}{
 El sistema se encargará de gestionar todo lo relacionado con el juego.}{A}{R}
 
-\requeriment{REQ-F-1-21}{SISTEMA: Gestionar niveles}{
+\requeriment{REQ-F-1-20}{SISTEMA: Gestionar niveles}{
 El sistema gestionará los niveles de mayor a menor dificultad.}{A}{R}{REQ-F-1-20}
 
-\requeriment{REQ-F-1-22}{SISTEMA: Gestionar ranking}{
+\requeriment{REQ-F-1-21}{SISTEMA: Gestionar ranking}{
 El sistema gestionará el ranking de mayor a menor puntuación.}{A}{R}{REQ-F-1-20}
 
-\requeriment{REQ-F-1-23}{SISTEMA: Gestionar cuentas}{
+\requeriment{REQ-F-1-22}{SISTEMA: Gestionar cuentas}{
 El sistema gestionará todas las cuentas de usuario (nombre de usuario, contraseña, datos del usuario).}{A}{R}{REQ-F-1-20}
 
-\requeriment{REQ-F-1-24}{SISTEMA: Gestionar mapas}{
+\requeriment{REQ-F-1-23}{SISTEMA: Gestionar mapas}{
 El sistema gestionará todos los mapas del juego.}{A}{R}{REQ-F-1-20}
 
-\requeriment{REQ-F-1-25}{ADMIN: Ver estados de los usuarios}{
+\requeriment{REQ-F-1-24}{ADMIN: Ver estados de los usuarios}{
 El administrador podrá ver el estado de los usuarios online (jugando, esperando o desconectado).}{A}{R}
 
-\requeriment{REQ-F-1-26}{USUARIO: Visualización del ranking}{
+\requeriment{REQ-F-1-25}{USUARIO: Visualización del ranking}{
 El jugador tendrá en el menú la opción para ver los rankings (el ranking del propio jugador o el ranking de todos los usuarios del juego).}{A}{R}
 
-\requeriment{REQ-F-1-27}{USUARIO: Modificación de los ajustes}{
-El jugador tendrá en el menú la opción para modificar sus ajustes (sonido, vibración, idioma).}{A}{R}
+\requeriment{REQ-F-1-26}{USUARIO: Modificación de los ajustes}{
+El jugador tendrá en el menú la opción para modificar sus ajustes generales(sonido, vibración, idioma).}{A}{R}
 
-\requeriment{REQ-F-1-28}{USUARIO: Volver al menú principal}{
+\requeriment{REQ-F-1-27}{USUARIO: Volver al menú principal}{
 El jugador tendrá en el menú la opción para volver al menú principal.}{A}{R}
 
-\requeriment{REQ-F-1-29}{USUARIO: Salir del juego}{
+\requeriment{REQ-F-1-28}{USUARIO: Salir del juego}{
 El jugador tendrá en el menú la opción para salir del juego.}{A}{R}
 
-\requeriment{REQ-F-1-30}{USUARIO: Guardado manual}{
-El jugador podrá guardar la partida manualmente.}{A}{R}
-
-\requeriment{REQ-F-1-31}{ADMIN: Borrar juego}{
+\requeriment{REQ-F-1-29}{ADMIN: Borrar juego}{
 El administrador podrá borrar el juego si quiere.}{A}{R}
 
-\requeriment{REQ-F-1-32}{USUARIO: Comenzar partida de nuevo}{
-El usuario podrá comenzar partida de nuevo.}{A}{R}
+\requeriment{REQ-F-1-30}{USUARIO: Comenzar partida de nuevo}{
+El usuario podrá comenzar la misma partida de nuevo, para tratar de mejorar el ranking.}{A}{R}
