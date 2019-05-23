@@ -404,7 +404,7 @@ El sistema actualizará los datos eliminando aquellos seleccionados.
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se encargará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
+El sistema se engargará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -425,7 +425,7 @@ El sistema se encargará de gestionar los diferentes niveles del juego, de menor
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se encargará de gestionar el ranking que irá de mayor a menor puntuación.
+El sistema se engaragrá de gestionar el ranking que irá de mayor a menor puntuación.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -446,7 +446,7 @@ El sistema se encargará de gestionar el ranking que irá de mayor a menor puntu
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se encargará de gestionar todas las cuentas de usuario, guardando el nombre de usuario, su contraseña y los datos del usuario.
+El sistema se engaragrá de gestionar todas las cuentas de usuario, guardando el nombre de usuario, su contraseña y los datos del usuario.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -663,7 +663,7 @@ El sistema se borrará por completo.
 
 \begin{enumerate}
 \item Paso 1.
-El usuario tendrá la opción de empezar la partida de nuevo. 
+El usuario tendrá opción de empezar la partida de nuevo. 
 \item Paso 2.
 El sistema se actualizará con una nueva partida. 
 \end{enumerate}
@@ -679,99 +679,3 @@ El sistema se actualizará con una nueva partida.
 \end{itemize}
 
 
-
-\section{Caso de uso : 0028 - USUARIO: Consultar Movimientos}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El usuario tendrá la opción de consultar los movimientos que ha realizado previamente durante la partida. 
-\item Paso 2.
-El sistema mostrará al usuario los movimientos realizados durante la partida.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item El usuario debe presionar una tecla para acceder a la lista de movimientos.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se redirige al usuario de nuevo a la partida actual.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0029 - USUARIO: Finalizar juego}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El usuario finalizará la partida cuando complete todos los niveles que existen en la partida. 
-\item Paso 2.
-El sistema guardará el tiempo y nombre del jugador y actualizará el ranking.
-\item Paso 3.
-El sistema mostrará en la pantalla un mensaje de victoria.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item El usuario debe haber completado todos los niveles de la partida.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se le muestra al usuario en pantalla un mensaje de victoria.
-\item Se redirige al usuario al menú principal.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0030 - SISTEMA: Mostrar pantalla contrareloj}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El jugador acaba de acceder a un nuevo nivel, el cuál és contrareloj.
-\item Paso 2.
-Se le muestra al usuario el tiempo que le queda para finalizar ese nivel.
-\item Paso 3.
-Dicho tiempo se va decrementando hasta llegar a 0.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item El usuario debe de haber accedido a un nivel contrareloj.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item En el caso de que el tiempo llegue a 0 el usuario perderá la partida.
-\item Se redirige al usuario al menú principal.
-\end{itemize}
-
-
-
-\section{Caso de uso : 0031 - USUARIO: Consultar bonus obtenidos}\label{sec:uc0}
-\subsection{Flujo de eventos}
-\subsubsection{Básico}
-
-\begin{enumerate}
-\item Paso 1.
-El jugador debe presionar una tecla para acceder a los bonus obtenidos.
-\item Paso 2.
-Se le muestra al usuario los bonus obtenidos anteriormente.
-\end{enumerate}
-
-\subsection{Precondiciones}
-\begin{itemize}
-\item El usuario debe haber conseguido algún bonus durante la partida.
-\end{itemize}
-
-\subsection{Postcondiciones}
-\begin{itemize}
-\item Se redirige al usuario a la partida de nuevo.
-\end{itemize}
