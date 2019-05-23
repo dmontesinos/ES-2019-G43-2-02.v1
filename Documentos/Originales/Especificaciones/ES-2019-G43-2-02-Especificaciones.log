@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.25)  22 APR 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.23)  24 MAY 2019 00:28
 entering extended mode
 **./ES-2019-G43-2-02-Especificaciones.tex
 (ES-2019-G43-2-02-Especificaciones.tex
 LaTeX2e <2018-12-01>
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,36 +19,33 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/a4wide\a4wide.st
-y"
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/a4wide\a4wide.sty"
 Package: a4wide 1994/08/30
- ("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ntgclass\a4.sty"
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ntgclass\a4.sty"
 Package: a4 2004/04/15 v1.2g A4 based page layout
 ))
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
-)
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
@@ -89,10 +86,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty
-"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
- ("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen112
 \ar@mcellbox=\box29
@@ -110,29 +106,28 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@cols=\count100
 \TX@ftn=\toks20
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.s
+ty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
-"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \everycr=\toks21
 \minrowclearance=\skip48
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.s
+ty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip49
@@ -145,24 +140,24 @@ s
 \f@nch@O@olf=\skip56
 \f@nch@O@orf=\skip57
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -170,16 +165,16 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.s
+ty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
+"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
-ty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.st
+y"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen121
@@ -193,12 +188,12 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@caption@flags=\count101
 \c@ContinuedFloat=\count102
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks23
 \inpenc@posthook=\toks24
-) (ES-2019-G43-2-02-Especificaciones.aux (introduccio.aux)
-(use_case_diagram.aux
+) (ES-2019-G43-2-02-Especificaciones.aux (introduccio.aux) (use_case_diagram.au
+x
 
 LaTeX Warning: Label `fig:usecase' multiply defined.
 
@@ -282,8 +277,8 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
-df.mkii"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen128
@@ -297,50 +292,50 @@ df.mkii"
 \makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks26
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
-base.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
+ase.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
-rr.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
+r.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
+"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
-ekeys.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefine
+keys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
-.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
+sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
-.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
+sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
-ys.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkey
+s.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
-s.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds
+.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
-x.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex
+.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
-mds.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcm
+ds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
-ty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
+y"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -405,10 +400,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\OT1/cmr/m/n/10 29-Abril-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 12-Maig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/10 19-Maig-
+ []
+
 <./imatges/uab-logo.png, id=1, 351.3125pt x 250.9375pt>
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 112.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 118.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -416,7 +421,7 @@ Make it at least 75.21123pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[1{C:/Users/danib/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <./imatges/uab-logo.png>] (ES-2019-G43-2-02-Especificaciones.toc
 File: ./imatges/uab-logo.png Graphic file (type png)
@@ -448,7 +453,7 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 110.
 
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 118.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 124.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
 [5]
 \openout2 = `introduccio.aux'.
@@ -456,7 +461,7 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 118.
  (introduccio.tex)
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 120.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 126.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [6
 
@@ -477,7 +482,7 @@ Package pdftex.def Info: ./imatges/Administrador.png  used on input line 14.
 )
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 121.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 127.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [7
 
@@ -486,16 +491,16 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 121.
 \openout2 = `uc_0.aux'.
 
  (uc_0.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
 
-("C:\Users\danib\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 66.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 65.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
 
 [8
@@ -504,83 +509,93 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 66.
 ]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 119.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 122.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [9]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 173.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 177.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [10]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 242.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 231.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [11]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 301.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 298.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [12]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 360.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 354.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [13]
-Overfull \hbox (0.4793pt too wide) in paragraph at lines 419--419
-[]\OT1/cmr/bx/n/14.4 Caso de uso : 0017 - USUARIO: Mod-i-fi-cacion de los ajus
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 408.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [14]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 460.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [15]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 517.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [16]
+Overfull \hbox (0.4793pt too wide) in paragraph at lines 537--537
+[]\OT1/cmr/bx/n/14.4 Caso de uso : 0022 - USUARIO: Mod-i-fi-cacion de los ajus
 tes 
  []
 
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 428.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 578.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
-[14]
+[17]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 481.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 644.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
- [15]
+ [18]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 551.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 696.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
- [16])
+ [19])
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
-Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 122.
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 128.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
- [17]
-\openout2 = `matriu.aux'.
-
-
-No file matriu.tex.
-
+ [20] 
 AED: lastpage setting LastPage
 (ES-2019-G43-2-02-Especificaciones.aux (introduccio.aux) (use_case_diagram.aux)
-(uc_0.aux) (matriu.aux))
+(uc_0.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3646 strings out of 492945
- 58201 string characters out of 3126252
- 130928 words of memory out of 3000000
- 7456 multiletter control sequences out of 15000+200000
+ 3643 strings out of 492895
+ 56907 string characters out of 3124202
+ 131393 words of memory out of 3000000
+ 7473 multiletter control sequences out of 15000+200000
  9939 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,65p,330b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/danib/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/danib/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/danib/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danib/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ES-2019-G43-2-02-Especificaciones.pdf (17 pages, 197493 bytes
+ 41i,16n,65p,394b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on ES-2019-G43-2-02-Especificaciones.pdf (20 pages, 203328 bytes
 ).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -404,7 +404,7 @@ El sistema actualizará los datos eliminando aquellos seleccionados.
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se engargará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
+El sistema se encargará de gestionar los diferentes niveles del juego, de menor a mayor dificultad.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -425,7 +425,7 @@ El sistema se engargará de gestionar los diferentes niveles del juego, de menor
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se engaragrá de gestionar el ranking que irá de mayor a menor puntuación.
+El sistema se encaragrá de gestionar el ranking que irá de mayor a menor puntuación.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -446,7 +446,7 @@ El sistema se engaragrá de gestionar el ranking que irá de mayor a menor puntu
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se engaragrá de gestionar todas las cuentas de usuario, guardando el nombre de usuario, su contraseña y los datos del usuario.
+El sistema se encaragrá de gestionar todas las cuentas de usuario, guardando el nombre de usuario, su contraseña y los datos del usuario.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -467,7 +467,7 @@ El sistema se engaragrá de gestionar todas las cuentas de usuario, guardando el
 
 \begin{enumerate}
 \item Paso 1.
-El sistema se engargará de gestionar todos los mapas del juego según su dificultad.
+El sistema se encargará de gestionar todos los mapas del juego según su dificultad.
 \end{enumerate}
 
 \subsection{Precondiciones}
@@ -678,4 +678,75 @@ El sistema se actualizará con una nueva partida.
 \item El usuario empezará la misma partida de nuevo si desea. 
 \end{itemize}
 
+
+
+\section{Caso de uso : 0028 - USUARIO: Finalizar juego}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El usuario completará el último nivel de la partida.
+\item Paso 2.
+El sistema guardará el resultado y el nombre del usuario.
+\item Paso 3.
+El sistema actualizará el ranking con los nuevos resultados.
+\item Paso 4.
+El sistema mostrará en pantalla un mensaje de victoria.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al usuario al menú principal.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0029 - USUARIO: Consulta de movimientos}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El usuario seleccionará la opción de consultar movimientos realizados.
+\item Paso 2.
+El sistema le mostrará los diferentes movimientos realizados en la partida.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item No hay precondiciones.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Se redirige al usuario a la partida.
+\end{itemize}
+
+
+
+\section{Caso de uso : 0030 - SISTEMA: Mostrar niveles contrareloj}\label{sec:uc0}
+\subsection{Flujo de eventos}
+\subsubsection{Básico}
+
+\begin{enumerate}
+\item Paso 1.
+El sistema mostrará el tiempo de inicio del nivel y el tiempo de finalización del mismo.
+\end{enumerate}
+
+\subsection{Precondiciones}
+\begin{itemize}
+\item El usuario debe de acceder a un nivel con el formato contrareloj.
+\end{itemize}
+
+\subsection{Postcondiciones}
+\begin{itemize}
+\item Si el usuario finaliza el nivel dentro del tiempo no ocurre nada.
+\item En caso contrario, se redirige al usuario al menú principal.
+\end{itemize}
 
