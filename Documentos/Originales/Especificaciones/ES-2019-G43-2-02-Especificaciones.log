@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.23)  24 MAY 2019 00:28
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.23)  23 MAY 2019 21:24
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
 entering extended mode
 **./ES-2019-G43-2-02-Especificaciones.tex
 (ES-2019-G43-2-02-Especificaciones.tex
@@ -261,7 +265,25 @@ LaTeX Warning: Label `sec:uc0' multiply defined.
 
 LaTeX Warning: Label `sec:uc0' multiply defined.
 
-) (matriu.aux))
+
+LaTeX Warning: Label `sec:uc0' multiply defined.
+
+
+LaTeX Warning: Label `sec:uc0' multiply defined.
+
+
+LaTeX Warning: Label `sec:uc0' multiply defined.
+
+
+LaTeX Warning: Label `sec:uc0' multiply defined.
+
+
+LaTeX Warning: Label `sec:uc0' multiply defined.
+
+
+LaTeX Warning: Label `sec:uc0' multiply defined.
+
+))
 \openout1 = `ES-2019-G43-2-02-Especificaciones.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -442,7 +464,11 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 110.
 \tf@toc=\write3
 \openout3 = `ES-2019-G43-2-02-Especificaciones.toc'.
 
-
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 120.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [5]
 (ES-2019-G43-2-02-Especificaciones.lof)
 \tf@lof=\write4
 \openout4 = `ES-2019-G43-2-02-Especificaciones.lof'.
@@ -455,7 +481,7 @@ File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 124.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
-[5]
+[6]
 \openout2 = `introduccio.aux'.
 
  (introduccio.tex)
@@ -463,18 +489,18 @@ File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 126.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
- [6
+ [7
 
 ]
 \openout2 = `use_case_diagram.aux'.
 
  (use_case_diagram.tex
-<./imatges/Jugador.png, id=26, 1308.89pt x 308.15125pt>
+<./imatges/Jugador.png, id=30, 1308.89pt x 308.15125pt>
 File: ./imatges/Jugador.png Graphic file (type png)
 <use ./imatges/Jugador.png>
 Package pdftex.def Info: ./imatges/Jugador.png  used on input line 8.
 (pdftex.def)             Requested size: 442.65375pt x 104.2105pt.
-<./imatges/Administrador.png, id=27, 1075.01625pt x 308.15125pt>
+<./imatges/Administrador.png, id=31, 1075.01625pt x 308.15125pt>
 File: ./imatges/Administrador.png Graphic file (type png)
 <use ./imatges/Administrador.png>
 Package pdftex.def Info: ./imatges/Administrador.png  used on input line 14.
@@ -484,7 +510,7 @@ File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 127.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
- [7
+ [8
 
 
  <./imatges/Jugador.png (PNG copy)> <./imatges/Administrador.png (PNG copy)>]
@@ -503,32 +529,44 @@ File: ./imatges/uab-logo.png Graphic file (type png)
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 65.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
 
-[8
+[9
 
 
 ]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 122.
+<<<<<<< HEAD
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [9]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 177.
+=======
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [10]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 231.
+=======
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 177.
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [11]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 298.
+=======
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 231.
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [12]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 354.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [13]
@@ -560,10 +598,24 @@ Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 578.
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 644.
+=======
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 298.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [13]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 354.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [14]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 408.
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [18]
 File: ./imatges/uab-logo.png Graphic file (type png)
 <use ./imatges/uab-logo.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 696.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [19])
@@ -572,6 +624,52 @@ File: ./imatges/uab-logo.png Graphic file (type png)
 Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 128.
 (pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
  [20] 
+=======
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 460.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [16]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 517.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [17]
+Overfull \hbox (0.4793pt too wide) in paragraph at lines 537--537
+[]\OT1/cmr/bx/n/14.4 Caso de uso : 0022 - USUARIO: Mod-i-fi-cacion de los ajus
+tes 
+ []
+
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 578.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+[18]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 644.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [19]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 697.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [20]
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 753.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [21]
+Overfull \hbox (0.76257pt too wide) in paragraph at lines 758--758
+[]\OT1/cmr/bx/n/14.4 Caso de uso : 0031 - USUARIO: Con-sul-tar bonus obtenidos 
+
+ []
+
+)
+File: ./imatges/uab-logo.png Graphic file (type png)
+<use ./imatges/uab-logo.png>
+Package pdftex.def Info: ./imatges/uab-logo.png  used on input line 128.
+(pdftex.def)             Requested size: 99.58464pt x 71.1312pt.
+ [22] 
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
 AED: lastpage setting LastPage
 (ES-2019-G43-2-02-Especificaciones.aux (introduccio.aux) (use_case_diagram.aux)
 (uc_0.aux))
@@ -580,10 +678,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  3643 strings out of 492895
  56907 string characters out of 3124202
  131393 words of memory out of 3000000
  7473 multiletter control sequences out of 15000+200000
+=======
+ 3639 strings out of 492895
+ 56833 string characters out of 3124202
+ 131094 words of memory out of 3000000
+ 7472 multiletter control sequences out of 15000+200000
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
  9939 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,65p,394b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -592,10 +697,17 @@ cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<<<<<<< HEAD
 Output written on ES-2019-G43-2-02-Especificaciones.pdf (20 pages, 203328 bytes
 ).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
+=======
+Output written on ES-2019-G43-2-02-Especificaciones.pdf (22 pages, 206159 bytes
+).
+PDF statistics:
+ 94 PDF objects out of 1000 (max. 8388607)
+>>>>>>> 689c7b8cd3f871c45d99b52c43edc5c8cf0c8f4d
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
